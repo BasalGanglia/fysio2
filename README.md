@@ -20,7 +20,12 @@ TBA
 #### Ruby on Rails
 
 Install [rbenv](https://github.com/rbenv/rbenv) with `brew install rbenv` and ruby-build plugin
-`brew install ruby-build`. (If you don't have [Homebrew](https://brew.sh/) installed, you can
+`brew install ruby-build`. 
+NOTE: if brew complains about linking openssl, do a manual symlink:
+
+ln -s /usr/local/Cellar/openssl/1.0.2l/ /usr/local/opt/openssl
+
+(If you don't have [Homebrew](https://brew.sh/) installed, you can
 install it with `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`.)
 Add these lines into you `~/.bash_profile`:
 
