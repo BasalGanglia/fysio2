@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-User.create name:physio, password:physio
+User.create name:'physio', password:'physio'
 pc = PublicationCreator.new
 pc.create_layers('seed_layers.json');
 pc.create_layer_types('seed_layer_types.json');
